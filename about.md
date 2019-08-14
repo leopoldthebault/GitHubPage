@@ -6,7 +6,8 @@ permalink: /about/
 
 ### Hola!
 
-I'm Leopold, and am a rising senior in [Electrical & Mechanical Engineering](https://www.ed.ac.uk/studying/undergraduate/degrees/index.php?action=programme&code=HHH6) at the University of Edinburgh — pronounced ˈɛdɪnbərə.
+I'm Leopold, and am a rising senior in [Electrical & Mechanical Engineering](https://www.ed.ac.uk/studying/undergraduate/degrees/index.php?action=programme&code=HHH6) at the University of Edinburgh—pronounced ˈɛdɪnbərə, in case you're wondering!
+I've just come back from a formative and memorable year studying abroad at **[Caltech]**(https://www.caltech.edu/)
 
 ### More Information
 
