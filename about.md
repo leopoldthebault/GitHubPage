@@ -16,7 +16,7 @@ I've just come back from an unforgettable and formative year studying abroad, an
 
 * I'm actively looking for a **co-op/placement** in robotics or related domains from the start of 2020 (from Jan/Feb through Jun/Jul). I'm very excited for this, and can't wait to see where this takes me! For those interested, here are a [CV](https://www.visualcv.com/leopold-t/) and my [LinkedIn](www.linkedin.com/in/leopold-t).
 
-* Oh, and I've been reading a fair amount lately, inspired by my friend [Justin](https://glibert.io/) who reads more than anyone else I know—and I don't only know engineers. While I'm at it, it's thanks to him if I'm writing on this website in the first place, so do check him out. I recently finished **Antifragile** by **Nassim Taleb**, and am onto **Gödel, Escher, Bach** by **Douglas Hofstadter**, among other works.
+* Oh, and I've been reading a fair amount lately, inspired by my friend [Justin](https://glibert.io/) who reads more than anyone else I know—and I don't only know engineers. While I'm at it, it's thanks to him if I'm writing on this website in the first place, so do check him out. I recently finished **Antifragile** by Nassim Taleb, and am onto **Gödel, Escher, Bach** by Douglas Hofstadter, among other works.
 
 ## Where I come from
 _Where __do__ I come from?_
