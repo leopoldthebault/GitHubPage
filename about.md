@@ -4,10 +4,14 @@ title: About
 permalink: /about/
 ---
 
-### Hola!
+## Hola!
 
-I'm Leopold, and am a rising senior in [Electrical & Mechanical Engineering](https://www.ed.ac.uk/studying/undergraduate/degrees/index.php?action=programme&code=HHH6) at the University of Edinburgh—pronounced ˈɛdɪnbərə, in case you're wondering!
-I've just come back from a formative and memorable year studying abroad at **[Caltech]**(https://www.caltech.edu/)
+I'm Leopold, and am a rising senior in [Electrical & Mechanical Engineering](https://www.ed.ac.uk/studying/undergraduate/degrees/index.php?action=programme&code=HHH6) at the University of Edinburgh—pronounced ˈɛdɪnbərə, in case you were wondering!
+I've just come back from an unforgettable and formative year studying abroad, and am now working at new skills I want to learn over summer.
+
+## Where I'm at
+
+## Where I come from
 
 ### More Information
 
