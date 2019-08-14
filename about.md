@@ -28,7 +28,7 @@ _Where __do__ I come from?_
 * For a more literal answer to the question posed at the start of this section: I don't quite know. I _would_ say though, _je me sens plutôt français._
 
 ## _Mais encore?_
-I do hope this French is not too detracting.
+I do hope this French is not tooo detracting.
 
 * Put simply, I was born in New York, moved to Barcelona when I was seven, and moved to Paris five years after that. Then, because my parents figured I would enjoy moving for my senior year, I spent a year in—and graduated high school from—Shanghai. And yes, I did enjoy it. Very much so. Then, as you may have inferred, I moved to Edinburgh for university, went to Pasadena (near Los Angeles) to study abroad, and am now headed back to Edinburgh but for a term, since I plan to carry my placement out abroad! Yes, I like moving.
 
