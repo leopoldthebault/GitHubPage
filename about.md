@@ -4,7 +4,9 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+### Hola!
+
+I'm Leopold, and am a rising senior in [Electrical & Mechanical Engineering](https://www.ed.ac.uk/studying/undergraduate/degrees/index.php?action=programme&code=HHH6) at the University of Eidnburgh.
 
 ### More Information
 
