@@ -16,6 +16,8 @@ I've just come back from an unforgettable and formative year studying abroad, an
 
 * I'm actively looking for a **co-op/placement** in robotics or related domains from the start of 2020 (from Jan/Feb through Jun/Jul). I'm very excited for this, and can't wait to see where this takes me! For those interested, here are a [CV](https://www.visualcv.com/leopold-t/) and my [LinkedIn](www.linkedin.com/in/leopold-t).
 
+* Oh, and I've been reading a fair amount lately, inspired by my friend [Justin](https://glibert.io/) who reads more than anyone else I know—and I don't only know engineers. While I'm at it, it's thanks to him if I'm writing on this website in the first place, so do check him out. I recently finished **Antifragile** by **Nassim Taleb**, and am onto **Gödel, Escher, Bach** by **Douglas Hofstadter**, among other works.
+
 ## Where I come from
 _Where __do__ I come from?_
 
@@ -28,12 +30,10 @@ _Where __do__ I come from?_
 ## _Mais encore?_
 I do hope this French is not too detracting.
 
-* Put simply, I was born in New York, moved to Barcelona when I was seven, and moved to Paris five years after that. Then, because my parents figured it would be best for me not to spend my senior year with friends I'd made over the course of half a decade,
+* Put simply, I was born in New York, moved to Barcelona when I was seven, and moved to Paris five years after that. Then, because my parents figured I would enjoy moving for my senior year, I spent a year in—and graduated high school from—Shanghai. And yes, I did enjoy it. Very much so. Then, as you may have inferred, I moved to Edinburgh for university, went to Pasadena (near Los Angeles) to study abroad, and am now headed back to Edinburgh but for a term, since I plan to carry my placement out abroad! Yes, I like moving.
 
-### More Information
+* From living in so many places, a nice side-effect is that I speak French, English, and Spanish natively, can conversationally pick up Catalan (since I've formally learned it) in the space of a couple of minutes, and completed the Duolingo course in Portuguese, for what that's worth. And I took Chinese for five years, which I was lucky enough to practice a fair amount while in Shanghai—as I said, it did turn out to be a fun time. Needless to say, moving around this much has endowed me with a fair cultural understanding and appreciation for what makes us different, and, at a deeper level, alike.
 
-A place to include any other types of information that you'd like to include about yourself.
+* I really like kitesurfing and other things. I also like design.
 
-### Contact me
-
-[email@domain.com](mailto:email@domain.com)
+<!--- [email@domain.com](mailto:email@domain.com) --->
