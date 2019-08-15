@@ -6,8 +6,8 @@ permalink: /about/
 
 # Hola!
 
-I'm **Leopold**, and am a rising senior in [Electrical & Mechanical Engineering](https://www.ed.ac.uk/studying/undergraduate/degrees/index.php?action=programme&code=HHH6) at the University of Edinburgh—pronounced _ˈɛdɪnbərə_, in case you were wondering!
-I've just come back from an incredibly formative year studying abroad, and am now working at new skills I want to learn over summer.
+I'm **Leopold**, and am a rising senior in [Electrical & Mechanical Engineering](https://www.ed.ac.uk/studying/undergraduate/degrees/index.php?action=programme&code=HHH6) at the University of Edinburgh—pronounced _ˈɛdɪnbərə_, in case you were wondering! I've just come back from an incredibly formative year studying abroad, and am now working at new skills I want to learn over summer.
+Here's a little more about myself.
 
 # 🛰️ Where I'm at
 * I'm nearly done with a **linear algebra** course taught through MIT's [OpenCourseWare](https://ocw.mit.edu/courses/mathematics/18-06-linear-algebra-spring-2010/). What I learned on the topic during my first term at university was not enough for what I'd like to do in programming, so building a more solid foundation seemed essential.
