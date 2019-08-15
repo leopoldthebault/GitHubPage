@@ -20,7 +20,7 @@ html {
 body {
 	background: $white;
   font: 18px/1.4 $helvetica;
-  color: $darkGray;
+  color: $black;
 }
 
 .container {
@@ -32,8 +32,8 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: $helveticaNeue;
-  color: $darkerGray;
-  font-weight: bold;
+  color: $black;
+  font-weight: normal;
 
   line-height: 1.7;
   margin: 1em 0 15px;
@@ -69,11 +69,11 @@ p {
 }
 
 a {
-  color: $blue;
+  color: $orange;
   text-decoration: none;
 	cursor: pointer;
   &:hover, &:active {
-    color: $blue;
+    color: $red;
   }
 }
 
@@ -151,7 +151,7 @@ img {
 //
 
 .wrapper-masthead {
-  margin-bottom: 50px;
+  margin-bottom: 75px;
 }
 
 .masthead {
@@ -176,7 +176,7 @@ img {
   }
 
   img {
-    border-radius: 5px;
+    border-radius: 0px;
   }
 }
 
@@ -192,7 +192,7 @@ img {
 
 .site-name {
   margin: 0;
-  color: $darkGray;
+  color: $black;
   cursor: pointer;
   font-family: $helveticaNeue;
   font-weight: 300;
@@ -212,7 +212,7 @@ img {
 
 nav {
   float: right;
-  margin-top: 23px; // @TODO: Vertically middle align
+  margin-top: 100px; // @TODO: Vertically middle align
   font-family: $helveticaNeue;
   font-size: 18px;
 
@@ -272,10 +272,10 @@ nav {
 }
 
 .wrapper-footer {
-  margin-top: 50px;
+  margin-top: 75px;
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
-  background-color: $lightGray;
+  background-color: $black;
 }
 
 footer {
