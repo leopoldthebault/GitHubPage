@@ -9,7 +9,7 @@ permalink: /about/
 I'm **Leopold**, and am a rising senior in [Electrical & Mechanical Engineering](https://www.ed.ac.uk/studying/undergraduate/degrees/index.php?action=programme&code=HHH6) at the University of Edinburgh—pronounced _ˈɛdɪnbərə_, in case you were wondering!
 I've just come back from an unforgettable and formative year studying abroad, and am now working at new skills I want to learn over summer.
 
-# Where I'm at 🛰
+# 🛰 Where I'm at
 * I'm nearly done with a **linear algebra** course taught through MIT's [OpenCourseWare](https://ocw.mit.edu/courses/mathematics/18-06-linear-algebra-spring-2010/). What I learned on the topic during my first term at university was not enough for what I'd like to do in programming, so building a more solid foundation seemed essential.
 
 * As soon as I'm done with this I'll head in one of many directions—or maybe many directions at once. My first aim is to publish (on this website) a post on my implementation of a **robot navigation problem** from a paper on real time optimization that I carried out last May for school. From there I hope to build on the robot navigation program to make it both more robust and more capable.
@@ -18,7 +18,7 @@ I've just come back from an unforgettable and formative year studying abroad, an
 
 * Oh, and I've been reading a fair amount lately, inspired by my friend [Justin](https://glibert.io/) who reads more than anyone else I know—and I don't only know engineers. While I'm at it, it's thanks to him that I'm writing on this website in the first place, so do check him out. I recently finished **Antifragile** by Nassim Taleb, and am onto **Gödel, Escher, Bach** by Douglas Hofstadter, among other works.
 
-# Where I come from
+# 🌌 Where I come from
 _Where __do__ I come from?_
 
 * I spent last year at [Caltech](https://www.caltech.edu/), which was an incredible experience. Academically, it was both the most difficult and rewarding time of my life. In theory, I learned a lot; so did I in practice. \[Please note the previous sentence is both a true statement and a joke; fully one and the other.] Going into this year I ~~thought~~ knew that I was destined for materials science. I took a first course on the topic—loved it! I took a second course—dropped it. It's such an interesting discipline, yet I came to realize it isn't for me. Now, as you know, I'm looking forward to what I have to learn in robotics!
@@ -27,7 +27,7 @@ _Where __do__ I come from?_
 
 * For a more literal answer to the question posed at the start of this section: I don't quite know. I _would_ say though, _je me sens plutôt français._
 
-# _Mais encore?_
+# 🔮 _Mais encore?_
 I do hope this French is not tooo detracting.
 
 * Put simply, I was born in **New York**, moved to **Barcelona** when I was 7, and moved to **Paris** 5 years after that. Then, because my parents figured I would enjoy moving for my senior year, I spent a year in—and graduated high school from—**Shanghai**. And yes, I did enjoy it. Very much so. Then, as you may have inferred, I moved to **Edinburgh** for university, went to **Pasadena** (near Los Angeles) to study abroad, and am now headed back to Edinburgh but for a term before I move anew since I plan to carry my placement out abroad! Yes, I like moving.
