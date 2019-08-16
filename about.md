@@ -15,7 +15,7 @@ Here's a little more about myself.
 
 * As soon as I'm done with this I'll head in one of many directions—or maybe many directions at once. My first aim is to publish (on this website) a post on my implementation of a **robot navigation problem** from a paper on real time optimization that I carried out last May for school. From there I hope to build on the robot navigation program to make it both more robust and more capable.
 
-* I'm actively looking for a **co-op/placement** in robotics or related domains from the start of 2020 (from Jan/Feb through Jun/Jul). I'm very excited for this, and can't wait to see where it takes me! For those interested, here are my [LinkedIn](www.linkedin.com/in/leopold-t) and [CV](https://www.visualcv.com/leopold-t/).
+* I'm actively looking for a **co-op/placement** in robotics or related domains from the start of 2020 (from Jan/Feb through Jun/Jul). I'm very excited for this, and can't wait to see where it takes me! For those interested, here are my [LinkedIn](www.linkedin.com/in/leopold-t/) and [CV](https://www.visualcv.com/leopold-t/).
 
 * I've also been reading a fair amount lately, inspired by my friend [Justin](https://glibert.io/) who reads more than anyone else I know—and I don't only know engineers. While I'm at it, it's thanks to him that I'm writing this website in the first place, so do check him out. I recently finished **Antifragile** by Nassim Taleb, and am onto **Gödel, Escher, Bach** by Douglas Hofstadter, among other works.
 
