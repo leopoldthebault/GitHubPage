@@ -23,6 +23,7 @@ Finally, it is important that I restate the following. This blog's primary aim i
 
 It is with a smile that I end this first post.
 
+
 Thank you,
 
 LT
