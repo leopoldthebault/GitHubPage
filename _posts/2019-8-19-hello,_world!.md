@@ -5,7 +5,7 @@ title: hello, world!
 
 # hello, world!
 
-tl;dr: I'm a random person who will write random-seeming posts.
+_tl;dr: I'm a random person who will write random-seeming posts._
 
 First and foremost, thank you for being here! I hope you will come to find this blog's content interesting.
 
@@ -24,6 +24,6 @@ Finally, it is important that I restate the following. This blog's primary aim i
 It is with a smile that I end this first post.
 
 
-Thank you,
+## Thank you,
 
-LT
+## LT
