@@ -37,6 +37,6 @@ I do hope this French is not tooo detracting.
 
 * I really like kitesurfing and other things. I also like design.
 
-\\(I_2=I-(V_2^{'}-Z_SI)\frac{Y_m}{2}\\)
+$I_2=I-(V_2^{'}-Z_SI)\frac{Y_m}{2}$
 
 <!--- [email@domain.com](mailto:email@domain.com) --->
