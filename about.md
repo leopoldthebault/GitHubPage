@@ -6,6 +6,8 @@ permalink: /about/
 
 # Hola!
 
+$ J(x) = \int{L(t, x, \dot{x}) dt} \$
+
 I'm **Leopold**, and am a rising senior in **[Electrical & Mechanical Engineering](https://www.ed.ac.uk/studying/undergraduate/degrees/index.php?action=programme&code=HHH6)** at the University of Edinburgh—pronounced _ˈɛdɪnbərə_, in case you were wondering! I've just come back from an incredibly formative year studying abroad, and am now working at new skills I want to learn over summer.
 
 Here's a little more about myself.
