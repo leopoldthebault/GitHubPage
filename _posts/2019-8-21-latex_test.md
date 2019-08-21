@@ -1,7 +1,7 @@
 ---
 layout: default
-use_math: true
 title: test
+use_math: true
 ---
 
 $$
