@@ -115,10 +115,10 @@ where $$\mathbb{I}_-$$ is defined such that $$\mathbb{I}_-\left(u\right)=0$$ if 
 minimize $$f_0\left(x,t\right)-\frac{1}{c\left(t\right)}\sum_{i=1}^p\log\left(-f_i\left(x,t\right)\right)$$
 
 
-where $$x$$ is within the feasible set $$D(t)$$ defined by all inequalities, and $$c$$ is a time-dependent positive barrier parameter. This barrier parameter ensures that inequality constraints are not violated, and therefore allows these to be included into the new objective function defined in (19).
+where $$x$$ is within the feasible set $$\mathcal{D}(t)$$ defined by all inequalities, and $$c$$ is a time-dependent positive barrier parameter. This barrier parameter ensures that inequality constraints are not violated, and therefore allows these to be included into the new objective function defined in (19).
 
 #### 4.4.2 Slack term
-In order to circumvent the requirement of $$x$$ falling within the feasible set from time $$t=0$$, a slack term $$s(t)$$ is added which satisfies $$s(0)>\text{max}_{i\in[p]}\,f_i(x(0),0)$$ so that $$x(0)\in\hat{D}(0)$$, with $$\hat{D}(t)$$ an open set containing $$D(t)$$. In other words, the specification on $$s(0)$$ ensures that the inital condition lies within the enlarged set $$\hat{D}(0)$$, by definition. The approximate optimal trajectory is therefore **(20)**:
+In order to circumvent the requirement of $$x$$ falling within the feasible set from time $$t=0$$, a slack term $$s(t)$$ is added which satisfies $$s(0)>\text{max}_{i\in[p]}\,f_i(x(0),0)$$ so that $$x(0)\in\hat{D}(0)$$, with $$\hat{\mathcal{D}}(t)$$ an open set containing $$\mathcal{D}(t)$$. In other words, the specification on $$s(0)$$ ensures that the inital condition lies within the enlarged set $$\hat{\mathcal{D}}(0)$$, by definition. The approximate optimal trajectory is therefore **(20)**:
 
 
 $$\hat{x}^*(t):=\text{argmin}f_0(x,t)-\frac{1}{c(t)}\sum_{i=1}^p\text{log}\left(s(t)-f_i(x,t)\right)$$.
