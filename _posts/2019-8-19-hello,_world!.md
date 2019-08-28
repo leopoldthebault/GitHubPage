@@ -1,5 +1,6 @@
 ---
 layout: post
+use_math: true
 title: hello, world!
 ---
 
