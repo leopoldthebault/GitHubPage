@@ -109,7 +109,7 @@ Using barrier functions, the formulation in (15) can be rewritten as **(18)**:
 $$x^*\left(t\right):=\text{argmin}f_0\left(x,t\right)+\sum_{i=1}^p\mathbb{I}_-\left( f_i\left(x,t\right)\right)$$
 
 
-where $$\mathbb{I}_-$$ is defined such that $$\mathbb{I}_-(u)=0$$ if $u\le 0$ and $$\mathbb{I}_-(u)=\infty$$ if $u>0$. It is clear from its definition that $$\mathbb{I}_-$$ is a barrier term, given $x^*(t)$ is defined only when all the inequalities are respected. Furthermore, $$\mathbb{I}_-(u)$$ can be improved by approximating it with the smooth, closed convex function $-\frac{1}{c}\log(-u)$, where $c>0$ is an arbitrary barrier parameter. You may convince yourself by plaing with [this graph](https://www.desmos.com/calculator/3oxnjvvtyw) This yields a smooth version of (18), which is **(19)**:
+where $$\mathbb{I}_-$$ is defined such that $$\mathbb{I}_-(u)=0$$ if $u\le 0$ and $$\mathbb{I}_-(u)=\infty$$ if $u>0$. It is clear from its definition that $$\mathbb{I}_-$$ is a barrier term, given $x^*(t)$ is defined only when all the inequalities are respected. Furthermore, $$\mathbb{I}_-(u)$$ can be improved by approximating it with the smooth, closed convex function $-\frac{1}{c}\log(-u)$, where $c>0$ is an arbitrary barrier parameter. You may convince yourself by playng with [this graph](https://www.desmos.com/calculator/3oxnjvvtyw) This yields a smooth version of (18), which is **(19)**:
 
 
 $$\text{minimize}f_0\left(x,t\right)-\frac{1}{c\left(t\right)}\sum_{i=1}^p\log\left(-f_i\left(x,t\right)\right)$$
