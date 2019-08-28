@@ -22,7 +22,6 @@ $$x^*(t) :=$$ argmin $$f_0(x,t)$$
 
 s.t. $$f_i(x,t)\le 0,\, i\in[p]$$
 
-
 $$f_i^\prime(x,t)=0,\, i\in[q]$$.
 
 The quantities $$x(t)$$ and $$f_0(x,t)$$ can respectively be seen as input and output. The aim is to find the optimal value $$x^*(t)$$ for which the output is minimized, subject to $$p$$ inequality constraint functions $$f_i(x,t)$$ and $$q$$ linear equality constraint functions $$f_i^\prime(x,t)$$.
@@ -30,8 +29,11 @@ The quantities $$x(t)$$ and $$f_0(x,t)$$ can respectively be seen as input and o
 ## 3 Assumptions
 For all $$t\ge 0$$, the following conditions are assumed:
 1. **Convexity**: constraint functions are convex and the objective function is uniformly strongly convex, meaning there is a unique optimal value $$x^*(t)$$ at each time.
+
 2. **Slater's condition**: the interior of the feasible region is nonempty, i.e. for each time there exists a solution under the given constraints.
+
 3. **Full rank condition**: the system of equality constraints has infinitely many solutions at each time.
+
 4. The optimization problem has **no exponentially growing function of $$t$$**.
 
 ## 4 Derivation
