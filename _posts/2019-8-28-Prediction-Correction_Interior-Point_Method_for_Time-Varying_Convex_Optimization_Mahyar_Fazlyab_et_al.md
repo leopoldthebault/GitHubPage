@@ -19,7 +19,10 @@ This equation, as well as others of its form, is referred to in the paper as a _
 For any time $$t\ge 0$$, the objective function $$f_0$$ and the constraints define an optimization problem whose optimal argument $$x^*(t)$$ is **(1)**:
 
 $$x^*(t) :=$$ argmin $$f_0(x,t)$$
+
 s.t. $$f_i(x,t)\le 0,\, i\in[p]$$
+
+
 $$f_i^\prime(x,t)=0,\, i\in[q]$$.
 
 The quantities $$x(t)$$ and $$f_0(x,t)$$ can respectively be seen as input and output. The aim is to find the optimal value $$x^*(t)$$ for which the output is minimized, subject to $$p$$ inequality constraint functions $$f_i(x,t)$$ and $$q$$ linear equality constraint functions $$f_i^\prime(x,t)$$.
