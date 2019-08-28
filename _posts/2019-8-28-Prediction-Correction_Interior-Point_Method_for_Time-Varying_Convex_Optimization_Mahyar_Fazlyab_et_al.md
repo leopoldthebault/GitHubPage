@@ -21,7 +21,7 @@ This equation, as well as others of its form, is referred to in the paper as a _
 For any time $$t\ge 0$$, the objective function $$f_0$$ and the constraints define an optimization problem whose optimal argument $x^*(t)$ is **(1)**:
 
 
-$$x^*(t) := \text{argmin} f_0(x,t)$$
+$$x^*(t) := \text{argmin}\, f_0(x,t)$$
 
 $$\text{s.t.} f_i(x,t)\le 0,\, i\in[p]$$
 
@@ -49,7 +49,7 @@ Equality constraints may then be added through a method called Langrangian relax
 The unconstrained version of (1) is considered in both this and the following section [3.1, 3.2]; it is defined as **(2)**:
 
 
-$$x^*\left(t\right):= \text{argmin}f_0\left(x,t\right)$$
+$$x^*\left(t\right):= \text{argmin}\, f_0\left(x,t\right)$$
 
 
 The solution $x^*\left(t\right)$ in (2) satisfies the first order optimality condition, meaning the first derivative $\nabla_x f_0\left(x,t\right)$ is equal to zero. As this is true for all $t$ the second derivative must also be null, yielding **(4)**:
@@ -100,19 +100,19 @@ Equality constraints are dealt with following Lagrangian relaxation; they are th
 The following sections [3.4.1, 3.4.2] are based on a version of (1) with only inequality constraints **(15)**:
 
 
-$$x^*\left(t\right):= \text{argmin} f_0\left(x,t\right), \text{s.t.} f_i\left(x,t\right)\le 0,\, i\in\left[p\right]$$
+$$x^*\left(t\right):= \text{argmin}\, f_0\left(x,t\right), \text{s.t.} f_i\left(x,t\right)\le 0,\, i\in\left[p\right]$$
 
 #### 4.4.1 Barrier term
 Using barrier functions, the formulation in (15) can be rewritten as **(18)**:
 
 
-$$x^*\left(t\right):=\text{argmin}f_0\left(x,t\right)+\sum_{i=1}^p\mathbb{I}_-\left( f_i\left(x,t\right)\right)$$
+$$x^*\left(t\right):=\text{argmin}\, f_0\left(x,t\right)+\sum_{i=1}^p\mathbb{I}_-\left( f_i\left(x,t\right)\right)$$
 
 
 where $$\mathbb{I}_-$$ is defined such that $$\mathbb{I}_-(u)=0$$ if $u\le 0$ and $$\mathbb{I}_-(u)=\infty$$ if $u>0$. It is clear from its definition that $$\mathbb{I}_-$$ is a barrier term, given $x^*(t)$ is defined only when all the inequalities are respected. Furthermore, $$\mathbb{I}_-(u)$$ can be improved by approximating it with the smooth, closed convex function $-\frac{1}{c}\log(-u)$, where $c>0$ is an arbitrary barrier parameter. You may convince yourself by playng with [this graph](https://www.desmos.com/calculator/3oxnjvvtyw) This yields a smooth version of (18), which is **(19)**:
 
 
-$$\text{minimize}f_0\left(x,t\right)-\frac{1}{c\left(t\right)}\sum_{i=1}^p\log\left(-f_i\left(x,t\right)\right)$$
+$$x^*\left(t\right):=\text{argmin}\, f_0\left(x,t\right)-\frac{1}{c\left(t\right)}\sum_{i=1}^p\log\left(-f_i\left(x,t\right)\right)$$
 
 
 where $x$ is within the feasible set $\mathcal{D}(t)$ defined by all inequalities, and $c$ is a time-dependent positive barrier parameter. This barrier parameter ensures that inequality constraints are not violated, and therefore allows these to be included into the new objective function defined in (19).
@@ -121,7 +121,7 @@ where $x$ is within the feasible set $\mathcal{D}(t)$ defined by all inequalitie
 In order to circumvent the requirement of $x$ falling within the feasible set from time $t=0$, a slack term $s(t)$ is added which satisfies $s(0)>\text{max}_{i\in[p]}\,f_i(x(0),0)$ so that $x(0)\in\hat{\mathcal{D}}(0)$, with $\hat{\mathcal{D}}(t)$ an open set containing $\mathcal{D}(t)$. In other words, the specification on $s(0)$ ensures that the inital condition lies within the enlarged set $\hat{\mathcal{D}}(0)$, by definition. The approximate optimal trajectory is therefore **(20)**:
 
 
-$$\hat{x}^*(t):=\text{argmin}f_0(x,t)-\frac{1}{c(t)}\sum_{i=1}^p\text{log}\left(s(t)-f_i(x,t)\right)$$
+$$\hat{x}^*(t):=\text{argmin}\, f_0(x,t)-\frac{1}{c(t)}\sum_{i=1}^p\text{log}\left(s(t)-f_i(x,t)\right)$$
 
 
 The optimization can therefore be initialized for any $x$. However, in order for the approximation error to vanish, the barrier parameter $c(t)$ must asymptotically diverge to infinity, while the slack parameter $s(t)$ must asymptotically vanish. This signifies that, over time, $\hat{x}^*(t)$ will converge to $x^*(t)$.
@@ -144,5 +144,5 @@ where $P\succeq\alpha I_n$ for some $\alpha> 0$. The first term in the brackets 
 All the terms of (23) have now been explained, and hopefully this article has helped build an intuitive sense of their role. _Please do not hesitate to leave your questions and comments in the section below, and I will do my best to respond._
 
 ##### Notation
-Let $\mathbb{R}$, $\mathbb{R}_+$, and $\mathbb{R}_{++}$ be the set of real, nonnegative, and positive numbers. The set $\{1,...,n\}$ is denoted by $[n]$. $I_n$ denotes the $n$-dimensional identity matrix. $\mathbb{S}^n$ denotes the space of $n\times n$ symmetric matrices. The gradient of a function $f(x,t):\mathbb{R}^n\times\mathbb{R}_+\rightarrow\mathbb{R}$ with respect to $x\in\mathbb{R}^n$ is denoted by $\nabla_x f(x,t)$. The _partial_ derivatives of $\nabla_x f(x,t)$ with respect to $x$ and $t$ are denoted by $\nabla_{xx} f(x,t)$ and $\nabla_{xt} f(x,t)$, respectively.
-The variable $x\in\mathbb{R}^n$ is considered, with $t\ge 0$ a continuous time index. A time-varying objective function is defined as $f_0 :\mathbb{R}^n\times\mathbb{R}_+\rightarrow\mathbb{R}$ taking values $f_0 (x,t)$; $p$ time-varying inequality constraint functions are defined as $f_i :\mathbb{R}^n\times\mathbb{R}_+\rightarrow\mathbb{R}$ taking values $f_i (x,t)$ for $i\in[p]$; and $q$ time-varying affine equality constraint functions are defined as $f_i^\prime :\mathbb{R}^n\times\mathbb{R}_+\rightarrow\mathbb{R}$ taking values $f_i^\prime = a_i(t)^T x-b_i(t)$ for $i\in[q]$. It is assumed that $f_i(x,t),\, i\in\{0\}\cup[p]$ and $f_i^\prime(x,t),\, i\in[q]$ are twice continuously differentiable with respect to $x$ and piecewise continuously differentiable with respect to $t$, for all $(x,t)\in\mathbb{R}^n\times\mathbb{R}_+$.
+Let $$\mathbb{R}$$, $$\mathbb{R}_+$$, and $$\mathbb{R}_{++}$$ be the set of real, nonnegative, and positive numbers. The set $\{1,...,n\}$ is denoted by $[n]$. $I_n$ denotes the $n$-dimensional identity matrix. $$\mathbb{S}^n$$ denotes the space of $n\times n$ symmetric matrices. The gradient of a function $$f(x,t):\mathbb{R}^n\times\mathbb{R}_+\rightarrow\mathbb{R}$$ with respect to $$x\in\mathbb{R}^n$$ is denoted by $\nabla_x f(x,t)$. The _partial_ derivatives of $\nabla_x f(x,t)$ with respect to $x$ and $t$ are denoted by $\nabla_{xx} f(x,t)$ and $\nabla_{xt} f(x,t)$, respectively.
+The variable $$x\in\mathbb{R}^n$$ is considered, with $t\ge 0$ a continuous time index. A time-varying objective function is defined as $$f_0 :\mathbb{R}^n\times\mathbb{R}_+\rightarrow\mathbb{R}$$ taking values $f_0 (x,t)$; $p$ time-varying inequality constraint functions are defined as $$f_i :\mathbb{R}^n\times\mathbb{R}_+\rightarrow\mathbb{R}$$ taking values $f_i (x,t)$ for $i\in[p]$; and $q$ time-varying affine equality constraint functions are defined as $$f_i^\prime :\mathbb{R}^n\times\mathbb{R}_+\rightarrow\mathbb{R}$$ taking values $f_i^\prime = a_i(t)^T x-b_i(t)$ for $i\in[q]$. It is assumed that $f_i(x,t),\, i\in\{0\}\cup[p]$ and $f_i^\prime(x,t),\, i\in[q]$ are twice continuously differentiable with respect to $x$ and piecewise continuously differentiable with respect to $t$, for all $$(x,t)\in\mathbb{R}^n\times\mathbb{R}_+$$.
