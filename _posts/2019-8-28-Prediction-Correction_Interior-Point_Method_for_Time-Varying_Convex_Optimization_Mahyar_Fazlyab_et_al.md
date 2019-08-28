@@ -109,7 +109,7 @@ Using barrier functions, the formulation in (15) can be rewritten as **(18)**:
 $$x^*\left(t\right):=\text{argmin}f_0\left(x,t\right)+\sum_{i=1}^p\mathbb{I}_-\left( f_i\left(x,t\right)\right)$$
 
 
-where $\mathbb{I}_{-}$ is defined such that $\mathbb{I}_-\left(u\right)=0$ if $u\le 0$ and $\mathbb{I}_-(u)=\infty$ if $u>0$. It is clear from its definition that $\mathbb{I}_-$ is a barrier term, given $x^*(t)$ is defined only when all the inequalities are respected. Furthermore, $\mathbb{I}_-\left(u\right)$ can be improved by approximating it with the smooth, closed convex function $-\frac{1}{c}\log\left(-u\right)$, where $c>0$ is an arbitrary barrier parameter. You may convince yourself by plaing with [this graph](https://www.desmos.com/calculator/3oxnjvvtyw) This yields a smooth version of (18), which is **(19)**:
+where $\mathbb{I}_-$ is defined such that $\mathbb{I}_-\left(u\right)=0$ if $u\le 0$ and $\mathbb{I}_-(u)=\infty$ if $u>0$. It is clear from its definition that $\mathbb{I}_-$ is a barrier term, given $x^*(t)$ is defined only when all the inequalities are respected. Furthermore, $\mathbb{I}_-\left(u\right)$ can be improved by approximating it with the smooth, closed convex function $-\frac{1}{c}\log\left(-u\right)$, where $c>0$ is an arbitrary barrier parameter. You may convince yourself by plaing with [this graph](https://www.desmos.com/calculator/3oxnjvvtyw) This yields a smooth version of (18), which is **(19)**:
 
 
 $$\text{minimize}f_0\left(x,t\right)-\frac{1}{c\left(t\right)}\sum_{i=1}^p\log\left(-f_i\left(x,t\right)\right)$$
@@ -118,7 +118,7 @@ $$\text{minimize}f_0\left(x,t\right)-\frac{1}{c\left(t\right)}\sum_{i=1}^p\log\l
 where $x$ is within the feasible set $\mathcal{D}(t)$ defined by all inequalities, and $c$ is a time-dependent positive barrier parameter. This barrier parameter ensures that inequality constraints are not violated, and therefore allows these to be included into the new objective function defined in (19).
 
 #### 4.4.2 Slack term
-In order to circumvent the requirement of $x$ falling within the feasible set from time $t=0$, a slack term $s(t)$ is added which satisfies $s(0)>\text{max}_{i\in[p]}\,f_i(x(0),0)$ so that $x(0)\in\hat{D}(0)$, with $\hat{\mathcal{D}}(t)$ an open set containing $\mathcal{D}(t)$. In other words, the specification on $s(0)$ ensures that the inital condition lies within the enlarged set $\hat{\mathcal{D}}(0)$, by definition. The approximate optimal trajectory is therefore **(20)**:
+In order to circumvent the requirement of $x$ falling within the feasible set from time $t=0$, a slack term $s(t)$ is added which satisfies $s(0)>\text{max}_{i\in[p]}\,f_i(x(0),0)$ so that $x(0)\in\hat{\mathcal{D}}(0)$, with $\hat{\mathcal{D}}(t)$ an open set containing $\mathcal{D}(t)$. In other words, the specification on $s(0)$ ensures that the inital condition lies within the enlarged set $\hat{\mathcal{D}}(0)$, by definition. The approximate optimal trajectory is therefore **(20)**:
 
 
 $$\hat{x}^*(t):=\text{argmin}f_0(x,t)-\frac{1}{c(t)}\sum_{i=1}^p\text{log}\left(s(t)-f_i(x,t)\right)$$
