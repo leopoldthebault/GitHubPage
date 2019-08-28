@@ -85,7 +85,7 @@ where $x$ converges onto a root of the function $f_0$. However, the method devel
 $$x_{n+1}=x-\gamma_n\frac{\nabla_x f_0(x(n),n)}{\nabla_{xx}f_0(x(n),n)}\Longleftrightarrow\frac{x_{n+1}-x_n}{\gamma_n}=-\nabla_{xx}^{-1}f_0(x(n),n)\nabla_x f_0(x(n),n)$$
 
 
-where $\gamma_n$ is a stepsize parameter. Note that as the objective function is assumed to be uniformly strongly convex, this will converge onto the minimum. In the limit where $n\rightarrow t$, $$\gamma_n\rightarrow 0$, and $(x_{n+1}-x_n)\rightarrow 0$ this becomes **(3)**:
+where $\gamma_n$ is a stepsize parameter. Note that as the objective function is assumed to be uniformly strongly convex, this will converge onto the minimum. In the limit where $n\rightarrow t$, $\gamma_n\rightarrow 0$, and $(x_{n+1}-x_n)\rightarrow 0$ this becomes **(3)**:
 
 
 $$\dot{x}(t)=-\nabla_{xx}^{-1}f_0(x(t),t)\nabla_x f_0(x(t),t)$$
