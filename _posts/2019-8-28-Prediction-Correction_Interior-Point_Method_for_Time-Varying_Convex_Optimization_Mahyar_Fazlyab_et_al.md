@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 use_math: true
 title: Understanding "Prediction-Correction Interior-Point Method for Time-Varying Convex Optimization"
 ---
