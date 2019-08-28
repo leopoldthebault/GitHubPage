@@ -21,11 +21,11 @@ This equation, as well as others of its form, is referred to in the paper as a _
 For any time $$t\ge 0$$, the objective function $$f_0$$ and the constraints define an optimization problem whose optimal argument $$x^*(t)$$ is **(1)**:
 
 
-$$x^*(t) :=$$ argmin $$f_0(x,t)$$
+$$x^*(t) := \text{argmin} f_0(x,t)$$
 
-s.t. $$f_i(x,t)\le 0,\, i\in[p]$$
+$$\text{s.t.} f_i(x,t)\le 0,\, i\in[p]$$
 
-$$f_i^\prime(x,t)=0,\, i\in[q]$$.
+$$f_i^\prime(x,t)=0,\, i\in[q]$$
 
 
 The quantities $$x(t)$$ and $$f_0(x,t)$$ can respectively be seen as input and output. The aim is to find the optimal value $$x^*(t)$$ for which the output is minimized, subject to $$p$$ inequality constraint functions $$f_i(x,t)$$ and $$q$$ linear equality constraint functions $$f_i^\prime(x,t)$$.
@@ -49,25 +49,25 @@ Equality constraints may then be added through a method called Langrangian relax
 The unconstrained version of (1) is considered in both this and the following section [3.1, 3.2]; it is defined as **(2)**:
 
 
-$$x^*\left(t\right):=$$ argmin $$f_0\left(x,t\right)$$.
+$$x^*\left(t\right):=$$ argmin $$f_0\left(x,t\right)$$
 
 
 The solution $$x^*\left(t\right)$$ in (2) satisfies the first order optimality condition, meaning the first derivative $$\nabla_x f_0\left(x,t\right)$$ is equal to zero. As this is true for all $$t$$ the second derivative must also be null, yielding **(4)**:
 
 
-$$0=\dot{\nabla}_x f_0(x^*(t),t)\Longleftrightarrow 0=\nabla_{xx} f_0(x^*(t),t)\dot{x}^*(t)+\nabla_{xt}f_0(x^*(t),t)$$.
+$$0=\dot{\nabla}_x f_0(x^*(t),t)\Longleftrightarrow 0=\nabla_{xx} f_0(x^*(t),t)\dot{x}^*(t)+\nabla_{xt}f_0(x^*(t),t)$$
 
 
 This follows from the chain rule, whereby **(i)**:
 
 
-$$\frac{d f(x(t),\,t)}{d t}=\frac{\partial f}{\partial x}\frac{d x}{d t}+\frac{\partial f}{\partial t}$$.
+$$\frac{d f(x(t),\,t)}{d t}=\frac{\partial f}{\partial x}\frac{d x}{d t}+\frac{\partial f}{\partial t}$$
 
 
 From (4) ensues the following expression for $$x^*\left(t\right)$$, **(5)**:
 
 
-$$\dot{x}^*\left(t\right)=-\nabla_{xx}^{-1}f_0\left(x^*\left(t\right),\, t\right)\nabla_{xt}f_0\left(x^*\left(t\right),\, t\right)$$.
+$$\dot{x}^*\left(t\right)=-\nabla_{xx}^{-1}f_0\left(x^*\left(t\right),\, t\right)\nabla_{xt}f_0\left(x^*\left(t\right),\, t\right)$$
 
 
 By ensuring that the first order optimality condiion is fulfilled, this yields the prediction term given $$x^*\left(t\right)$$ known at some time $$t$$. However, it is not assumed that the optimization problem is initalized at an optimal solution, and the correction term is what will enable the system to close in on the optimal solution.
@@ -88,7 +88,7 @@ $$x_{n+1}=x-\gamma_n\frac{\nabla_x f_0(x(n),n)}{\nabla_{xx}f_0(x(n),n)}\Longleft
 where $$\gamma_n$$ is a stepsize parameter. Note that as the objective function is assumed to be uniformly strongly convex, this will converge onto the minimum. In the limit where $$n\rightarrow t$$, $$\gamma_n\rightarrow 0$$, and $$(x_{n+1}-x_n)\rightarrow 0$$ this becomes **(3)**:
 
 
-$$\dot{x}(t)=-\nabla_{xx}^{-1}f_0(x(t),t)\nabla_x f_0(x(t),t)$$.
+$$\dot{x}(t)=-\nabla_{xx}^{-1}f_0(x(t),t)\nabla_x f_0(x(t),t)$$
 
 
 The solution to this differential equation converges onto a neighborhood around $$x^*(t)$$.
@@ -100,19 +100,19 @@ Equality constraints are dealt with following Lagrangian relaxation; they are th
 The following sections [3.4.1, 3.4.2] are based on a version of (1) with only inequality constraints **(15)**:
 
 
-$$x^*\left(t\right):=$$ argmin $$f_0\left(x,t\right),$$ s.t. $$f_i\left(x,t\right)\le 0,\, i\in\left[p\right]$$.
+$$x^*\left(t\right):= \text{argmin} f_0\left(x,t\right), \text{s.t.} f_i\left(x,t\right)\le 0,\, i\in\left[p\right]$$
 
 #### 4.4.1 Barrier term
 Using barrier functions, the formulation in (15) can be rewritten as **(18)**:
 
 
-$$x^*\left(t\right):=$$ argmin $$f_0\left(x,t\right)+\sum_{i=1}^p\mathbb{I}_-\left( f_i\left(x,t\right)\right)$$
+$$x^*\left(t\right):=\text{argmin}f_0\left(x,t\right)+\sum_{i=1}^p\mathbb{I}_-\left( f_i\left(x,t\right)\right)$$
 
 
 where $$\mathbb{I}_-$$ is defined such that $$\mathbb{I}_-\left(u\right)=0$$ if $$u\le 0$$ and $$\mathbb{I}_-(u)=\infty$$ if $$u>0$$. It is clear from its definition that $$\mathbb{I}_-$$ is a barrier term, given $$x^*(t)$$ is defined only when all the inequalities are respected. Furthermore, $$\mathbb{I}_-\left(u\right)$$ can be improved by approximating it with the smooth, closed convex function $$-\frac{1}{c}\log\left(-u\right)$$, where $$c>0$$ is an arbitrary barrier parameter. You may convince yourself by plaing with [this graph](https://www.desmos.com/calculator/3oxnjvvtyw) This yields a smooth version of (18), which is **(19)**:
 
 
-minimize $$f_0\left(x,t\right)-\frac{1}{c\left(t\right)}\sum_{i=1}^p\log\left(-f_i\left(x,t\right)\right)$$
+$$\text{minimize}f_0\left(x,t\right)-\frac{1}{c\left(t\right)}\sum_{i=1}^p\log\left(-f_i\left(x,t\right)\right)$$
 
 
 where $$x$$ is within the feasible set $$\mathcal{D}(t)$$ defined by all inequalities, and $$c$$ is a time-dependent positive barrier parameter. This barrier parameter ensures that inequality constraints are not violated, and therefore allows these to be included into the new objective function defined in (19).
@@ -121,7 +121,7 @@ where $$x$$ is within the feasible set $$\mathcal{D}(t)$$ defined by all inequal
 In order to circumvent the requirement of $$x$$ falling within the feasible set from time $$t=0$$, a slack term $$s(t)$$ is added which satisfies $$s(0)>\text{max}_{i\in[p]}\,f_i(x(0),0)$$ so that $$x(0)\in\hat{D}(0)$$, with $$\hat{\mathcal{D}}(t)$$ an open set containing $$\mathcal{D}(t)$$. In other words, the specification on $$s(0)$$ ensures that the inital condition lies within the enlarged set $$\hat{\mathcal{D}}(0)$$, by definition. The approximate optimal trajectory is therefore **(20)**:
 
 
-$$\hat{x}^*(t):=\text{argmin}f_0(x,t)-\frac{1}{c(t)}\sum_{i=1}^p\text{log}\left(s(t)-f_i(x,t)\right)$$.
+$$\hat{x}^*(t):=\text{argmin}f_0(x,t)-\frac{1}{c(t)}\sum_{i=1}^p\text{log}\left(s(t)-f_i(x,t)\right)$$
 
 
 The optimization can therefore be initialized for any $$x$$. However, in order for the approximation error to vanish, the barrier parameter $$c(t)$$ must asymptotically diverge to infinity, while the slack parameter $$s(t)$$ must asymptotically vanish. This signifies that, over time, $$\hat{x}^*(t)$$ will converge to $$x^*(t)$$.
@@ -130,7 +130,7 @@ The optimization can therefore be initialized for any $$x$$. However, in order f
 Lagrangian relaxation and the barrier term respectively serve to incorporate equality and inequality constraints into the objective function, while the slack term ensures that the optimization can be initialized with any value. These terms therefore all work towards building the entire problem into a single objective function, while enabling the optimization to start from a random point. This objective function is defined as **(22)**:
 
 
-$$\Phi(x,c,s,t):=f_0(x,t)-\frac{1}{c}\sum_{i=1}^p\text{log}\left(s-f_i(x,t)\right)$$.
+$$\Phi(x,c,s,t):=f_0(x,t)-\frac{1}{c}\sum_{i=1}^p\text{log}\left(s-f_i(x,t)\right)$$
 
 
 This updated objective function is fed into the prediction-correction differential equation to yield the following dynamical system **(23)**:
