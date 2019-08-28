@@ -1,6 +1,5 @@
 ---
 layout: post
-use_math: true
 title: hello, world!
 ---
 
@@ -26,5 +25,3 @@ It is with a smile that I end this first post.
 Thank you,
 
 LT
-
-$$\text{test}$$
