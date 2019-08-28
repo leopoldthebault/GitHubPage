@@ -4,7 +4,7 @@ use_math: true
 title: Understanding "Prediction-Correction Interior-Point Method for Time-Varying Convex Optimization"
 ---
 
-_This post is based on [_**Prediction-Correction Interior-Point Method for Time-Varying Convex Optimization**_](https://arxiv.org/abs/1608.07544), a paper whose authors are **Mahyar Fazlyab**, **Santiago Paternain**, **Victor M. Preciado**, and **Alejandro Ribiero**. It was published in **IEEE Transactions on Automatic Control, Vol. 63, No. 7, July 2018**._
+_This post is based on [**Prediction-Correction Interior-Point Method for Time-Varying Convex Optimization**](https://arxiv.org/abs/1608.07544), a paper whose authors are **Mahyar Fazlyab**, **Santiago Paternain**, **Victor M. Preciado**, and **Alejandro Ribiero**. It was published in **IEEE Transactions on Automatic Control, Vol. 63, No. 7, July 2018**._
 
 _This article can be seen as a complement to the above-mentioned paper, and some level of paraphrasing is to be expected. In this perspective, the paper's notation and equation numbering have been strictly followed so that one may read the paper alongside this post without confusion. Equations with lowercase Roman numeral numbering have been introduced in this article for explanatory purposes, and do not appear in the paper._
 
