@@ -26,3 +26,5 @@ It is with a smile that I end this first post.
 Thank you,
 
 LT
+
+$$\text{test}$$
