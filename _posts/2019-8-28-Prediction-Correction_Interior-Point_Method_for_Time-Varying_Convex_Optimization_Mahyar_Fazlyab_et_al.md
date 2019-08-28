@@ -18,7 +18,7 @@ $$\dot{x}=-\nabla_{xx}^{-1}\phi\left[P\nabla_x\phi+\nabla_{xs}\phi\dot{s}+\nabla
 This equation, as well as others of its form, is referred to in the paper as a _dynamical system_. It is a differential equation whose solution converges—by design—to the optimal solution $$x^*$$.
 
 ## 2 Problem statement
-For any time $$t\ge 0$$, the objective function $$f_0$$ and the constraints define an optimization problem whose optimal argument $x^*(t)$ is **(1)**:
+For any time $$t\ge 0$$, the objective function $$f_0$$ and the constraints define an optimization problem whose optimal argument $$x^*(t)$$ is **(1)**:
 
 
 $$x^*(t) :=$$ argmin $$f_0(x,t)$$
