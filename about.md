@@ -17,7 +17,7 @@ Here's a little more about myself.
 
 * I'm actively looking for a **co-op/placement** in robotics, system design, or other fields from January through July 2020. For anyone interested, please have a look at my **[LinkedIn](https://www.linkedin.com/in/leopold-t/)** and **[CV](https://www.visualcv.com/leopold-t/)**.
 
-* I've also been reading a fair amount lately, inspired by my friend **[Justin](https://glibert.io/)**. I recently finished **Antifragile** by Nassim Taleb, and am onto **Gödel, Escher, Bach** by Douglas Hofstadter, among other works.
+* I've also been reading a fair amount lately. I recently finished **Antifragile** by Nassim Taleb, and am onto **Gödel, Escher, Bach** by Douglas Hofstadter, among other works.
 
 # 🌌 Where I come from
 
