@@ -13,7 +13,7 @@ Here's a little more about myself.
 # 🛰️ Where I'm at
 * I'm currently learning robotics through **[Coursera](https://www.coursera.org/)**'s **[Modern Robotics: Mechanics, Planning, and Control](https://www.coursera.org/specializations/modernrobotics)**, a semester-long course taught at **Northwestern**.
 
-* Besides the above, I will generally be studying towards a better understanding of control and optimization problems.
+* Besides the above, I will generally be studying towards a better understanding of **control and optimization** problems.
 
 * I'm actively looking for a **co-op/placement** in robotics or related domains from the start of 2020 (from Jan/Feb through Jun/Jul). For anyone interested, please have a look at my **[LinkedIn](https://www.linkedin.com/in/leopold-t/)** and **[CV](https://www.visualcv.com/leopold-t/)**.
 
