@@ -27,7 +27,7 @@ Here's a little more about myself.
 
 # 🔮 _What else?_
 
-*I was born in **New York**, moved to **Barcelona** when I was seven, and moved to **Paris** five years after that. I then spent a year in—and graduated high school from—**Shanghai**. Upon graduation I moved to **Edinburgh** for university, went to **Pasadena** (near Los Angeles) to study abroad, and am now headed back to Edinburgh but for a term before I move anew since I plan to carry my placement out abroad.
+* I was born in **New York**, moved to **Barcelona** when I was seven, and moved to **Paris** five years after that. I then spent a year in—and graduated high school from—**Shanghai**. Upon graduation I moved to **Edinburgh** for university, went to **Pasadena** (near Los Angeles) to study abroad, and am now headed back to Edinburgh but for a term before I move anew since I plan to carry my placement out abroad.
 
 * A result of living many places is that I speak **French**, **English**, and **Spanish** natively. I can conversationally pick up Catalan in the space of a couple of minutes, and completed the Duolingo course in Portuguese, for what that's worth. I also took **Chinese** for five years, which I was lucky enough to practice a fair amount while in Shanghai.
 
