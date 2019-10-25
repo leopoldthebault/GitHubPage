@@ -15,7 +15,7 @@ Here's a little more about myself.
 
 * Though I took a break from this in favor of my university courses, I've been learning robotics through **[Coursera](https://www.coursera.org/)**'s **[Modern Robotics: Mechanics, Planning, and Control](https://www.coursera.org/specializations/modernrobotics)**, a semester-long course taught at **Northwestern**. I fully intend to pick up and finish this course over winter break.
 
-* I will be doing a co-op at SpaceX from January through June 2020. For anyone interested in my experience, please have a look at my **[LinkedIn](https://www.linkedin.com/in/leopold-t/)** and **[CV](https://www.visualcv.com/leopold-t/)**.
+* I will be doing a co-op at **[SpaceX](https://www.spacex.com/)** from January through June 2020. For anyone interested in my experience, please have a look at my **[LinkedIn](https://www.linkedin.com/in/leopold-t/)** and **[CV](https://www.visualcv.com/leopold-t/)**.
 
 * I've also been reading a fair amount lately. I recently finished **Antifragile** by Nassim Taleb, and am onto **Gödel, Escher, Bach** by Douglas Hofstadter, among other works.
 
