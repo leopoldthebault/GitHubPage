@@ -6,16 +6,16 @@ permalink: /about/
 
 # Hi there,
 
-I'm **Leopold**, and am a rising senior in **[Electrical & Mechanical Engineering](https://www.ed.ac.uk/studying/undergraduate/degrees/index.php?action=programme&code=HHH6)** at the University of Edinburgh. I've just come back from an incredibly formative year studying abroad, and have now been working at new skills over summer.
+I'm **Leopold**, and am a senior in **[Electrical & Mechanical Engineering](https://www.ed.ac.uk/studying/undergraduate/degrees/index.php?action=programme&code=HHH6)** at the University of Edinburgh.
 
 Here's a little more about myself.
 
 # 🛰️ Where I'm at
-* I'm currently learning robotics through **[Coursera](https://www.coursera.org/)**'s **[Modern Robotics: Mechanics, Planning, and Control](https://www.coursera.org/specializations/modernrobotics)**, a semester-long course taught at **Northwestern**.
+* I took on a graduate level course in **[Machine Learning and Pattern Recognition](https://www.inf.ed.ac.uk/teaching/courses/mlpr/2018/notes/)** this term without having any significant experience in computer science; this is proving to be an interesting learning experience. 
 
-* Besides the above, I will generally be studying towards a better understanding of **control and optimization** problems.
+* Though I took a break from this in favor of my university courses, I've been learning robotics through **[Coursera](https://www.coursera.org/)**'s **[Modern Robotics: Mechanics, Planning, and Control](https://www.coursera.org/specializations/modernrobotics)**, a semester-long course taught at **Northwestern**. I fully intend to pick up and finish this course over winter break.
 
-* I'm actively looking for a **co-op/placement** in robotics, system design, or other fields from January through July 2020. For anyone interested, please have a look at my **[LinkedIn](https://www.linkedin.com/in/leopold-t/)** and **[CV](https://www.visualcv.com/leopold-t/)**.
+* I will be doing a co-op at SpaceX from January through June 2020. For anyone interested in my experience, please have a look at my **[LinkedIn](https://www.linkedin.com/in/leopold-t/)** and **[CV](https://www.visualcv.com/leopold-t/)**.
 
 * I've also been reading a fair amount lately. I recently finished **Antifragile** by Nassim Taleb, and am onto **Gödel, Escher, Bach** by Douglas Hofstadter, among other works.
 
