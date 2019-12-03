@@ -17,7 +17,7 @@ Here's a little more about myself.
 
 * I will be doing a co-op at **[SpaceX](https://www.spacex.com/)** from January through June 2020 as a **Launch Intern**. For anyone interested in my experience, please have a look at my **[LinkedIn](https://www.linkedin.com/in/leopold-t/)** and **[CV](https://www.visualcv.com/leopold-t/)**.
 
-* I've also been reading a fair amount lately. I recently finished Feynman's autobiography **Surely You're Joking, Mr. Feynman** ($$\frac{10}{10}$$ would recommend), and am onto **Gödel, Escher, Bach** by Douglas Hofstadter, among other works.
+* I've also been reading a fair amount lately. I recently finished Feynman's autobiography **Surely You're Joking, Mr. Feynman** (10/10 would recommend), and am onto **Gödel, Escher, Bach** by Douglas Hofstadter, among other works.
 
 # 🌌 Where I come from
 
