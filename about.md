@@ -6,7 +6,9 @@ permalink: /about/
 
 # Hi there,
 
-I'm **Leopold**, and am a Master's student in **[Electrical & Mechanical Engineering](https://www.ed.ac.uk/studying/undergraduate/degrees/index.php?action=programme&code=HHH6)** at the University of Edinburgh.
+I'm **Leopold** and am a Master's student in **[Electrical & Mechanical Engineering](https://www.ed.ac.uk/studying/undergraduate/degrees/index.php?action=programme&code=HHH6)** at the University of Edinburgh.
+
+I work on **[space manufacturing]**(https://foundation.si).
 
 Here's a little more about myself.
 
