@@ -23,7 +23,7 @@ For any time $t\ge 0$, the objective function $f_0$ and the constraints define a
 
 $x^*(t) := \text{argmin}\, f_0(x,t)$
 
-$\text{s.t.} f_i(x,t)\le 0,\, i\in[p]$
+$\text{s.t.}; f_i(x,t)\le 0,\, i\in[p]$
 
 $f_i^\prime(x,t)=0,\, i\in[q]$
 
@@ -54,7 +54,7 @@ $x^*\left(t\right):= \text{argmin}\, f_0\left(x,t\right)$
 
 The solution $x^*\left(t\right)$ in (2) satisfies the first order optimality condition, meaning the first derivative $\nabla_x f_0\left(x,t\right)$ is equal to zero. As this is true for all $t$ the second derivative must also be null, yielding **(4)**:
 
-
+$0=\dot{\nabla}_x$
 $0=\dot{\nabla}_x f_0(x^*(t),t)\Longleftrightarrow 0=\nabla_{xx} f_0(x^*(t),t)\dot{x}^*(t)+\nabla_{xt}f_0(x^*(t),t)$
 
 
@@ -124,7 +124,7 @@ In order to circumvent the requirement of $x$ falling within the feasible set fr
 $\hat{x}^*(t):=\text{argmin}\, f_0(x,t)-\frac{1}{c(t)}\sum_{i=1}^p\text{log}\left(s(t)-f_i(x,t)\right)$
 
 
-The optimization can therefore be initialized for any $x$. However, in order for the approximation error to vanish, the barrier parameter $c(t)$ must asymptotically diverge to infinity, while the slack parameter $s(t)$ must asymptotically vanish. This signifies that, over time, $\hat{x}^*(t)$ will converge to $x^*(t)$.
+The optimization can therefore be initialized for any $x$. However, in order for the approximation error to vanish, the barrier parameter $c(t)$ must asymptotically diverge to infinity, while the slack parameter $s(t)$ must asymptotically vanish. This signifies that, over time, $\hat{x}^*(t)$. will converge to $x^*(t)$.
 
 ### 4.5 Tying things together
 Lagrangian relaxation and the barrier term respectively serve to incorporate equality and inequality constraints into the objective function, while the slack term ensures that the optimization can be initialized with any value. These terms therefore all work towards building the entire problem into a single objective function, while enabling the optimization to start from a random point. This objective function is defined as **(22)**:
