@@ -12,7 +12,7 @@ _This article can be seen as a complement to the above-mentioned paper, and some
 The aim of this post is to build an understanding of the paper's main result, equation **(23)**:
 
 
-$$\dot{x}=-\nabla_{xx}^{-1}\phi\left[P\nabla_x\phi+\nabla_{xs}\phi\dot{s}+\nabla_{xc}\phi\dot{c}+\nabla_{xt}\phi\right]$$
+\\[\dot{x}=-\nabla_{xx}^{-1}\phi\left[P\nabla_x\phi+\nabla_{xs}\phi\dot{s}+\nabla_{xc}\phi\dot{c}+\nabla_{xt}\phi\right]\\]
 
 
 This equation, as well as others of its form, is referred to in the paper as a _dynamical system_. It is a differential equation whose solution converges—by design—to the optimal solution $x^*$.
