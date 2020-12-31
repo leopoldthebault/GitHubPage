@@ -54,7 +54,10 @@ $x^*\left(t\right):= \text{argmin}\, f_0\left(x,t\right)$
 
 The solution $x^*\left(t\right)$ in (2) satisfies the first order optimality condition, meaning the first derivative $\nabla_x f_0\left(x,t\right)$ is equal to zero. As this is true for all $t$ the second derivative must also be null, yielding **(4)**:
 
+
 $0=\dot{\nabla}_x$
+
+
 $0=\dot{\nabla}_x f_0(x^*(t),t)\Longleftrightarrow 0=\nabla_{xx} f_0(x^*(t),t)\dot{x}^*(t)+\nabla_{xt}f_0(x^*(t),t)$
 
 
